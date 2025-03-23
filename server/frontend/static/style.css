@@ -124,3 +124,43 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.container-card {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.contact-section {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-section p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-section strong {
+  color: darkturquoise;
+}
+
+
+.divider {
+  border-left: 1px solid #ddd;
+  height: auto;
+  align-self: stretch;
+}
